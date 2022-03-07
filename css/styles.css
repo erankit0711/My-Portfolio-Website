@@ -1,3 +1,4 @@
+
 body{
   text-align: center;
   margin: 0px;
@@ -5,41 +6,46 @@ body{
   color: #434e52;
   font-size: 20px;
 }
-
-.navcolor{
-  background-color:#e0ebe8!important;
-
+div{
+  overflow-x: hidden;
 }
-.navTextColor{
-  color:#18b0b0!important;
-    font-family: 'Ubuntu', sans-serif;
+p{
+    word-spacing: 2px;
 }
-#navbarNav{
-  margin-left: auto;
-  margin-right: 300px!important;
-  padding-top: 20px;
+#title{
+  background-color: #e0ebe8;
+}
+.container-fluid{
+  padding: 3% 15% 0% 15%;
+}
+.skill-container{
+  padding: 0% 7% 0% 7%;
+}
+.navbar{
+ font-family: 'Montserrat', sans-serif;
+  background-color: #e0ebe8;
+}
+.navbar-brand{
+    color: #18b0b0!important;
+  }
+.nav-item{
+  padding: 0 16px;
+  display: inline-block;
 }
 
-.brand-img{
-  height: 70px;
-  width: 70px;
-  margin-left: 300px;
-  margin-top: 30px;
-
+.navbar-nav{
+  display: inline-block;
 }
-
 
 .div1{
-  /* background-color:#ecfbfc; */
-  background-color: #e0ebe8;
+  background-color:#e0ebe8;
   position:relative;
-  padding-top: 10px;
 }
 .div2{
 
 }
 .div3{
-  background-color:#81f5ff;
+  background-color: #18b0b0;
   padding: 100px 0px 10px;
 
 }
@@ -48,21 +54,21 @@ img{
   height: 50;
 }
 .profile-img{
-  width: 250px;
-
+  width: 25%;
+  margin-bottom: 20px;
 }
 .profile{
     margin: 50px auto 50px auto;
 }
 .cricket-img{
-  width: 200px;
+  width: 100%;
   float:left;
   padding-right: 40px;
 }
 .coding-img{
-  width: 250px;
+  width: 115%;
   float:right;
-  padding-right: 40px;
+  padding-left: 40px;
 }
 
 h1{
@@ -85,53 +91,47 @@ h2{
   font-size: 20px;
   color: #11999E;
 }
+
 h3{
   color: #18b0b0;
   font-weight: normal;
   font-family: 'Ubuntu', sans-serif;
 }
-p{
 
+.brand-img{
+  height: 70px;
+  width: 70px;
 }
 .topcloud{
   position:absolute;
-  top: 8%;
-  right: 16%;
-  width: 9.5%
-
+  top: 38%;
+  right: 10%;
+  width: 13.5%;
 }
 
 .bottomcloud{
   position:absolute;
   top: 51%;
-  left: 19%;
-  width: 9.5%
+  left: 10%;
+  width: 13.5%
 }
 .mountain{
   margin-top: 800;
   padding-top: 30px;
-  width: 37%;
+  width: 52%;
 
 }
 .intro{
-  width: 500px;
+  width: 30%;
   margin: 0 auto;
 }
-.footer-link{
-  color:#11999E
-}
-.btn{
-    color:#11999E
-}
 .skill-row{
-  width:800px;
+  width:100%;
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2rem;
-  padding: 15px;
-    background-color: #ecfbfc;
-
-
+  padding: 30px;
+  background-color: #ecfbfc;
 }
 hr{
   width: 5%;
@@ -142,9 +142,7 @@ hr{
   margin:100px auto;
   opacity: 0.3;
 }
-.btn{
-  background-color: #11999E;
-  color: white;
+.button{
   font-size: 20px;
   margin-bottom: 30px;
   text-decoration: none;
@@ -152,118 +150,82 @@ hr{
   bottom: 150px;
   padding: 10px;
 }
-.btn:hover{
-  background-color:#00a8cc;
-    opacity: 0.9;
-}
+
 .intouch{
-  width: 40%;
+  width: 60%;
   margin: 20px auto;
   padding-bottom: 200px;
 }
 a{
   font-size: 1.2rem;
   text-decoration: none;
-  position: static;
-  bottom: 40px;
+  position: relative;
 }
 
  a:hover{
   color: #ecfbfc;
 }
+
+.footer-font {
+  position: relative;
+  color: white;
+  margin: 0px 15px 0px;
+}
 .copyright{
   color: #ecfbfc;
   font-size: 0.75rem;
-}
-.footer-font {
-  margin: 0px 25px 30px;
-  color:  #11999E;
-
-}
-.footer-font:hover{
-  color: #ecfbfc;
-}
-.copyright{
-  font-size: 0.8rem;
-  color:  #11999E;
+  margin-top:20px;
 }
 
-/* MEDIA QUERIES */
-@media (max-width: 900px){
-  #navbarNav{
-    margin-right: 100px!important;
+/* MEDIA QUERY */
+@media only screen and (max-width: 450px) {
+  .container-fluid{
+    padding: 3% 0% 0% 0%;
+  }
+  .nav-item{
+    padding: 0 4px;
+    display: inline-block;
+  }
+  .navbar{
+   padding: 0.5rem;
+  }
+  h1{
+    font-size: 4.5rem;
+  }
+  .mountain{
+    width: 100%;
+  }
+  .topcloud{
+    right: -10%;
+    width: 28.5%
+  }
+  .bottomcloud{
+    left: -10%;
+    width: 28.5%
   }
   .brand-img{
-    height: 70px;
-    width: 70px;
-    margin-left: 100px;
-    margin-top: 30px;
-}
-}
-
-@media (max-width: 450px){
-  #navbarNav{
-    /* margin-right: 5%!important; */
-    display: inline;
-    margin-left: 15%;
-    padding: 15px;
-
-
+    margin-left: 5px;
+  }
+  .profile-img{
+    width: 60%;
+    margin-bottom: 40px;
+  }
+  .intro{
+    width: 80%;
+  }
+  hr{
+    margin:70px auto;
+  }
+  .intouch{
+    width: 80%;
+    margin: 20px auto;
+    padding-bottom: 200px;
+  }
+  .div3{
+    padding: 30px 0px 30px!important;
+  }
+  a{
+    font-size: 1rem;
   }
 
-  .navTextColor{
-    color:#18b0b0!important;
-      font-family: 'Ubuntu', sans-serif;
-      font-size: 1rem;
-
   }
-
-  .brand-img{
-    height: 70px;
-    width: 70px;
-    margin-left: 0px;
-    margin-top: 20px;
-}
-h1{
-  margin: 60px auto 0px auto;
-  font-size: 4.5rem;
-
-}
-
-.mountain{
-  width: 90%;
-}
-.intro{
-  width: 300px;
-}
-.skill-row{
-  width:320px;
-  margin: 50px auto 80px auto;
-  text-align: center;
-}
-.cricket-img{
-  width: 200px;
-  padding-right: 0px;
-  padding-bottom: 20px;
-  margin-left: 45px;
-
-}
-
-.coding-img{
-  width: 250px;
-  padding-right: 0px;
-  margin-right: 20px;
-
-}
-hr{
-  margin:65px auto;
-
-}
-.intouch{
-  width: 300px;
-  margin: 20px auto;
-  padding-bottom: 200px;
-}
-
-
-}

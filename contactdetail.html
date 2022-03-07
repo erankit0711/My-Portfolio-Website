@@ -1,26 +1,103 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Contact Detail</title>
-    <link rel="stylesheet" href="styles1.css">
-  </head>
-  <body>
-    <h3>Mobile Number</h3>
-    <h2><strong>9005444066</strong></h2>
-    <hr size="3" >
-    <h3>Email</h3>
-    <h2><a href="https://mail.google.com/mail/u/0/#inbox">erankit0711@gmail.com</a></h2>
-    <form action="mailto:ankitguptawd@gmail.com" method="post" enctype="text/plain">
-      <label class="label">Your Name:</label>
-      <input type="text" name="Name" value=""><br>
-      <label class="label" for="email">Your Email:</label>
-      <input type="email" name="email" value=""><br>
-      <label  class="label" for="message">Your Message:</label><br>
-      <textarea name="message" rows="10" cols="30"></textarea> <br>
-      <input type="submit" class="contact" >
+<html lang="en">
+<head>
+	<title>Contact Us-Ankit Gupta</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name=”description” content="This is contact page of <strong>Ankit Gupta</strong> web designer and developer.">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
 
-    </form>
+<!-- BOOTSTRAP -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="css/styles.css" rel="stylesheet" />
+<link rel="icon" href="favicon.ico">
 
-  </body>
+<!-- FONT AWESOME -->
+<script src="https://kit.fontawesome.com/8b906fd434.js" crossorigin="anonymous"></script>
+
+<!-- GOOGLE FONTS -->
+<link href="https://fonts.googleapis.com/css2?family=Raleway&family=Sacramento&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+
+	<div class="container-contact100">
+
+		<div class="wrap-contact100">
+			<form action="mailto:ankitguptawd@gmail.com" method="post" enctype="text/plain" class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Send Us A Message
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Please enter your name">
+					<input class="input100" type="text" name="name" placeholder="Full Name">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Please enter your email: e@a.x">
+					<input class="input100" type="text" name="email" placeholder="E-mail">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Please enter your phone">
+					<input class="input100" type="text" name="phone" placeholder="Phone">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Please enter your message">
+					<textarea class="input100" name="message" placeholder="Your Message"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button type="submit" class="contact100-form-btn">
+						<span>
+							<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+							Send
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+	<footer>
+		<div class="container-fluid div3">
+			<a href="https://www.linkedin.com/in/ankit-gupta-web-developer?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BmyOdfaFoSjaIwlIyQcyrLA%3D%3D"><i class="footer-font fab fa-linkedin fa-2x"></i></a>
+			<a href="https://twitter.com/AnkitGu33628413"><i class="footer-font fab fa-twitter fa-2x"></i></a>
+			<a href="https://www.instagram.com/_ankit_0.7_/"><i class="footer-font fab fa-instagram fa-2x"></i></a>
+			<a href="mailto:ankitguptawd@gmail.com"><i class="footer-font fas fa-envelope fa-2x"></i></a>
+
+			<p class="copyright"> © 2020 @<u>Ankit Gupta.</u> All rights reserved</p>
+		</div>
+	</footer>
+
+
+<!--===============================================================================================-->
+
+	<script src="js/main.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
 </html>
